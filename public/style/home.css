@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Poppins';
+}
+
+main{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../assets/banner-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.start{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	background: transparent;
+	bottom: 0;
+	height: 200px;
+
+}
+
+.start span{
+	background: #2d1e1a;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	border-radius: 15px;
+	cursor: pointer;
+}

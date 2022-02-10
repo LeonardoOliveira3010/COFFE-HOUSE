@@ -1,0 +1,14 @@
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 245px;
+}
+
+.header div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
